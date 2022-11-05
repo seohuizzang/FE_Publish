@@ -1,2 +1,1 @@
-# FE_Pushlish
-FE : 퍼블리싱
+# FE : 퍼블리싱
