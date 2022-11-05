@@ -1,3 +1,7 @@
+header{
+    margin-top:11rem;
+}
+
 .title {
     color : var(--color-Blue-400);
 }
@@ -8,7 +12,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 2.4rem auto 4rem;
+ 
 
 
 }
@@ -29,6 +34,55 @@
     color:var(--color-White);
     border-radius: var(--border-radius-Small);
     border: 2px solid var(--color-Blue-400);
+}
+
+
+.rank-bar{
+    margin: 0 auto;
+    display: flex;
+    width: 50rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.rank-bar div img{
+    padding-bottom: 1rem;
+}
+.rank-bar div div{
+    width:8rem;
+    padding-top: 1rem;
+    background-color: var(--color-Red-300);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bar-name{
+    padding-bottom: 0.5rem;
+    font-size: var(--font-Small);
+    font-weight: var(--weight-Bold);
+    color:var(--color-White);
+
+}
+
+.bar-vote{
+    font-size: var(--font-Micro);
+    font-weight: var(--weight-Bold);
+    color:var(--color-Gray-500);
+}
+
+.bar-2{
+    height:5.8rem;
+}
+
+.bar-1{
+    height:11.6rem;
+}
+
+.bar-3{
+    height:7.7rem;
 }
 
 .rank-block{
