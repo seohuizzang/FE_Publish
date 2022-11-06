@@ -3,7 +3,7 @@ header{
 }
 
 .title {
-    color : var(--color-Blue-400);
+    color : var(--color-blue-400);
 }
 
 .filter-block{
@@ -20,20 +20,20 @@ header{
 
 .filter-btn{
     width: 10rem;
-    color: var(--color-Blue-400);
-    background-color: var(--color-White);
-    font-size: var(--font-Small);
-    font-weight: var(--weight-Bold);
+    color: var(--color-blue-400);
+    background-color: var(--color-white);
+    font-size: var(--font-small);
+    font-weight: var(--weight-bold);
     padding: 1.4rem auto;
-    border-radius: var(--border-radius-Small);
-    border: 2px solid var(--color-Blue-400);
+    border-radius: var(--border-radius-small);
+    border: 2px solid var(--color-blue-400);
 }
 
 .filter-btn:hover{
-    background-color: var(--color-Blue-400);
-    color:var(--color-White);
-    border-radius: var(--border-radius-Small);
-    border: 2px solid var(--color-Blue-400);
+    background-color: var(--color-blue-400);
+    color:var(--color-white);
+    border-radius: var(--border-radius-small);
+    border: 2px solid var(--color-blue-400);
 }
 
 
@@ -53,7 +53,7 @@ header{
 .rank-bar div div{
     width:8rem;
     padding-top: 1rem;
-    background-color: var(--color-Red-300);
+    background-color: var(--color-red-300);
     display: flex;
     flex-direction: column;
 
@@ -61,16 +61,16 @@ header{
 
 .bar-name{
     padding-bottom: 0.5rem;
-    font-size: var(--font-Small);
-    font-weight: var(--weight-Bold);
-    color:var(--color-White);
+    font-size: var(--font-small);
+    font-weight: var(--weight-bold);
+    color:var(--color-white);
 
 }
 
 .bar-vote{
-    font-size: var(--font-Micro);
-    font-weight: var(--weight-Bold);
-    color:var(--color-Gray-500);
+    font-size: var(--font-micro);
+    font-weight: var(--weight-bold);
+    color:var(--color-gray-500);
 }
 
 .bar-2{
@@ -89,8 +89,8 @@ header{
     margin: 0 auto;
     width:72rem;
     height:52rem;
-    border-radius: var(--border-radius-Regular);
-    border: 2px solid var(--color-Blue-400);
+    border-radius: var(--border-radius-regular);
+    border: 2px solid var(--color-blue-400);
     padding: 2.5rem 3.7rem;
 
 }
@@ -113,9 +113,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: var(--font-Regular);
-    font-weight: var(--weight-Bold);
-    color: var(--color-Blue-400);
+    font-size: var(--font-regular);
+    font-weight: var(--weight-bold);
+    color: var(--color-blue-400);
 }
 
 
@@ -136,16 +136,16 @@ header{
 
 .profile-name{
     padding-bottom: 0.8rem;
-    font-size: var(--font-Small);
-    font-weight: var(--weight-Bold);
-    color:var(--color-Gray-600);
+    font-size: var(--font-small);
+    font-weight: var(--weight-bold);
+    color:var(--color-gray-600);
 }
 
 .profile-movie{
 
-    font-size: var(--font-Micro);
-    font-weight: var(--weight-Light);
-    color:var(--color-Gray-400);
+    font-size: var(--font-micro);
+    font-weight: var(--weight-light);
+    color:var(--color-gray-400);
 }
 
 .rank-num{
@@ -160,17 +160,17 @@ header{
 .rank-btn{
     width: 10.5rem;
     height:4rem;
-    color:var(--color-White);
-    background-color: var(--color-Blue-400);
-    border-radius: var(--border-radius-Small);
-    font-size: var(--font-Small);
-    font-weight: var(--weight-Bold);
+    color:var(--color-white);
+    background-color: var(--color-blue-400);
+    border-radius: var(--border-radius-small);
+    font-size: var(--font-small);
+    font-weight: var(--weight-bold);
 }
 
 .rank-content--top div{
-    color:var(--color-Red-300);
+    color:var(--color-red-300);
 }
 
 .rank-content--top button{
-    background-color: var(--color-Red-300);
+    background-color: var(--color-red-300);
 }
