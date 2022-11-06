@@ -1,0 +1,35 @@
+
+.result-block{
+    height:31rem;
+    margin: 2.4rem auto 3rem;
+
+
+}
+
+.list-block{
+    height:25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.movie-block{
+    display: flex;
+    flex-direction: row;
+    width: 53rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.4rem auto 3rem;
+    font-size: var(--font-regular);
+    font-weight: var(--weight-bold);
+
+}
+
