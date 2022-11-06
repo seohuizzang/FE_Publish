@@ -21,8 +21,14 @@
 
     /*color - Red*/
     --color-red-300: #F47D79;
-    --color-red-200: #FCA5A5;;
-    --color-red-100: #FECACA;;
+    --color-red-200: #FCA5A5;
+    --color-red-100: #FECACA;
+
+    /*color - Green*/
+    --color-green-300: #33B489;
+    --color-green-200: #67C891;
+    --color-green-100: #99D5BA;
+    
 
     /*color - Grad*/
     --color-grad-500: #BEE9E8;
