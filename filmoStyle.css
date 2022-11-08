@@ -49,7 +49,7 @@
 }
 .fanscore-R {
     color: var(--color-gray-600);
-    font-size: var(--font-small);
+    font-size: var(--font-semi-micro);
 }
 .percentage {
     color: var(--color-blue-300);
@@ -110,7 +110,12 @@ progress {
       margin-top: 1rem;
   }
   .charMovie {
-    color: var(--color-gray-600);
+    color: var(--color-gray-400);
     font-size: var(--font-micro);
     margin-top: 1rem;
+}
+#span {
+    color: var(--color-gray-600);
+    font-size: var(--font-small);
+    font-weight: var(--weight-bold);
 }

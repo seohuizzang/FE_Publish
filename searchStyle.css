@@ -91,3 +91,49 @@ input[type="checkbox"] {
     color: var(--color-grey-600);
     font-size: var(--font-semi-regular);
 }
+
+.resultList {
+    width: 100%;
+    margin: 6.4rem auto 8rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.individual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 11rem;
+    height: 16rem;
+}
+.poster {
+    /*position: absolute;*/
+    width: 11rem;
+    height: 11rem;
+    background-color: var(--color-blue-200);
+}
+.tag {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.resultText {
+    height: 4rem;
+}
+.movieName {
+    color: var(--color-gray-600);
+    font-size: var(--font-small);
+    font-weight: var(--weight-bold);
+    margin-top: 1rem;
+}
+.year {
+  color: var(--color-gray-400);
+  font-size: var(--font-micro);
+  margin-top: 1rem;
+}
+#span {
+    color: var(--color-blue-400); font-size: var(--font-semi-regular)
+}
