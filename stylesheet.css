@@ -29,7 +29,6 @@
   --color-green-200: #67C891;
   --color-green-100: #99D5BA;
   
-
   /*color - Grad*/
   --color-grad-500: #BEE9E8;
   --color-grad-400: #ACF2E2;
@@ -62,6 +61,7 @@
 
 /*Universal tags*/
 * {
+
   box-sizing: border-box;
   font-size: 62.5%;
 }
@@ -136,8 +136,4 @@ h4 {
 h5 {
   font-size: var(--font-micro);
   font-weight: var(--weight-bold);
-}
-
-.title {
-  color : var(--color-blue-600);
 }
