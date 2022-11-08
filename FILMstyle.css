@@ -32,10 +32,15 @@
 }
 .infoLayout {
     width: 26rem;
+    height: 31.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
 }
 .detailinfo {
     color: var(--color-gray-500);
-    font-size: var(--font-small);
+    font-size: var(--font-regular);
     text-align: left;
 }
 .watched {
