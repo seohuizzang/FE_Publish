@@ -63,7 +63,8 @@
 }
 .listTitle {
     text-align: left;
-    margin-top: 4.4rem;
+    margin-top: 7rem;
+    font-size: var(--font-regular);
 }
 .actorProfile {
     margin-top: 4.4rem;
