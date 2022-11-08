@@ -3,24 +3,24 @@
     font-weight: var(--weight-Bold);
     font-size: var(--font-Large);
     text-align: center;
-    margin-top: 110px;
+    margin-top: 11rem;
 }
 .profile {
-    /*margin-top: 130px;*/
+    /*margin-top: 13rem;*/
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .profileimg {
-    width: 300px;
-    height: 300px;
+    width: 30rem;
+    height: 30rem;
     border-radius: 100%;
     background-color: var(--color-Blue-200);
 }
 .profiletitle {
-    margin-top: 70px;
-    width: 274px;
-    height: 30px;
+    margin-top: 7rem;
+    width: 27.4rem;
+    height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,8 +32,8 @@
     font-weight: var(--weight-Bold);
 }
 .filmolist {
-    margin-top: 110px;
-    padding: 50px 50px 0 50px;
+    margin-top: 11rem;
+    padding: 5rem 5rem 0 5rem;
     border: 2px solid var(--color-Blue-400);
     border-radius: var(--border-radius-Regular);
 }
@@ -54,14 +54,14 @@
 .percentage {
     color: var(--color-Blue-300);
     text-align: left;
-    margin: 4px auto auto 4px;
+    margin: 0.4rem auto auto 0.4rem;
     font-size: var(--font-Semi-Micro);
     font-weight: var(--weight-Bold);
 }
 progress {
     -webkit-appearance: none;
     width: 100%;
-    height: 32px;
+    height: 3.2rem;
     border: 2px solid var(--color-Blue-400);
     border-radius: var(--border-radius-Regular);
   }
@@ -74,7 +74,7 @@ progress {
   }
   .characterList {
       width: 100%;
-      margin: 64px auto 80px auto;
+      margin: 6.4rem auto 8rem auto;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -84,33 +84,33 @@ progress {
       align-items: center;
       justify-content: space-between;
       flex-direction: column;
-      width: 110px;
-      height: 160px;
+      width: 11rem;
+      height: 16rem;
   }
   .charProfileImg {
       /*position: absolute;*/
-      width: 110px;
-      height: 110px;
+      width: 11rem;
+      height: 11rem;
       background-color: var(--color-Blue-200);
   }
   .tag {
-      width: 25px;
-      height: 25px;
+      width: 2.5rem;
+      height: 2.5rem;
       position: absolute;
       bottom: 0;
       right: 0;
   }
   .charText {
-      height: 40px;
+      height: 4rem;
   }
   .charName {
       color: var(--color-Gray-600);
       font-size: var(--font-Small);
       font-weight: var(--weight-Bold);
-      margin-top: 10px;
+      margin-top: 1rem;
   }
   .charMovie {
     color: var(--color-Gray-600);
     font-size: var(--font-Micro);
-    margin-top: 10px;
+    margin-top: 1rem;
 }
