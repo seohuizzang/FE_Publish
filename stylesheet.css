@@ -29,7 +29,6 @@
   --color-green-200: #67C891;
   --color-green-100: #99D5BA;
   
-
   /*color - Grad*/
   --color-grad-500: #BEE9E8;
   --color-grad-400: #ACF2E2;
@@ -111,6 +110,7 @@ button {
   padding-bottom: 100px;
 
 }
+
 
 h1{
   font-size: var(--font-large);
