@@ -28,9 +28,13 @@
     justify-content: space-between;
 }
 .free, .info {
+    margin-right: 2rem;
+    font-weight: var(--weight-regular)
+}
+#span {
     color: var(--color-gray-600);
     font-size: var(--font-regular);
-    margin-right: 2rem;
+    font-weight: var(--weight-bold);
 }
 .button {
     width: auto;
@@ -46,13 +50,14 @@
     border-radius: var(--border-radius-regular);
     width: 100%;
     height: max-content;
-    padding: 2rem 3rem 3rem 3rem;
+    padding: 3rem;
 }
 .eachProfile {
     display: grid;
     grid-template-columns: 6rem max-content;
     column-gap: 1.2rem;
     height: 6rem;
+    margin-left: 0.8rem;
 }
 .profileImg {
     width: 6rem;
@@ -67,24 +72,30 @@
     margin: 0;
     line-height: 6rem;
 }
-#span {
-    color: var(--color-gray-600);
-    font-size: var(--font-regular);
-    font-weight: var(--weight-bold);
+.eachPostTop, .each_eachPostTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.6rem;
+}
+.each_eachPostTop {
+    margin-top: 2.4rem;
 }
 .timeStamp {
-    position: relative;
-    text-align: right;
     top: 1rem;
     color: var(--color-gray-350);
     font-size: var(--font-small);
     font-weight: var(--weight-bold);
 }
+.eachPostTitle {
+    margin: 0;
+}
 .postContents {
-    color: var(--color-gray-600);
-    font-size: var(--font-small);
-    font-weight: var(--weight-bold);
+    color: var(--color-gray-500);
+    font-weight: var(--weight-regular);
     text-align: left;
+    margin-bottom: 3.6rem;
 }
 .postContents_each {
     color: var(--color-gray-600);
@@ -92,12 +103,18 @@
     text-align: left;
     margin-bottom: 3.6rem;
 }
+.replIndex {
+    color: var(--color-green-300);
+    font-size: var(--font-semi-micro);
+    font-weight: var(--weight-bold);
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
 .bestRepl {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 1.8rem;
 }
 .text, .thumbNum {
     color: var(--color-gray-400);
@@ -109,7 +126,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--color-green-100);
+    background-color: #ebf7f1;
 }
 .repl {
     margin: 1.8rem auto;
@@ -119,6 +136,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+.replCount {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0.4rem;
 }
 .replButton {
     width: max-content;
@@ -161,7 +183,7 @@
     font-size: var(--font-semi-micro);
 }
 .newPostContents {
-    margin: 3.6rem auto;
+    margin-bottom: 3.6rem;
     border: 1px solid var(--color-gray-350);
     border-radius: var(--border-radius-regular);
     padding: 1.8rem 2.4rem;
@@ -170,4 +192,23 @@
     color: var(--color-gray-600);
     font-size: var(--font-small);
     text-align: left;
+    vertical-align: top;
+}
+.titleField {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.postTitle {
+    text-align: left;
+    font-weight: var(--weight-regular);
+    margin-left: 0.8rem;
+}
+.titleInput {
+    margin-left: 2rem;
+    height: 2.5rem;
+    width: 88%;
+    border: 1px solid var(--color-gray-350);
+    border-radius: var(--border-radius-small);
 }
